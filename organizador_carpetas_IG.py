@@ -3,7 +3,7 @@ import shutil
 import tkinter as tk
 import datetime
 import getpass
-import threading # Necesario para ejecutar watchdog en un hilo separado
+import threading 
 
 from tkinter import filedialog, messagebox
 from watchdog.observers import Observer
@@ -166,7 +166,7 @@ def organizar_carpeta(ruta_base_observada_param=None, archivo_especifico_param=N
                         
                 break # Archivo procesado (o error manejado), pasar al siguiente archivo
 
-    # --- Mostrar mensaje solo si fue llamado por el botón (organización manual completa) ---
+    # --- Mostrar mensaje solo si fue llamado por el botón ---
     if not ruta_base_observada_param: # Es decir, si 'ruta' fue obtenida por filedialog
         
         if archivos_movidos_contador > 0:
