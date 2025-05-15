@@ -20,7 +20,7 @@ CATEGORIAS = {
     },
     "Imágenes": {"IMAGENES": [".jpg", ".jpeg", ".png", ".svg", ".gif"]},
     "Audio": {"MP3": [".mp3"]},
-    "Video": {"VIDEOS": [".mp4", ".avi", ".mov", ".mkv"]},
+    "Video": {"VIDEOS": [".mp4", ".avi", ".mov", ".mkv", ".webm"]},
     "Comprimidos": {"ZIP": [".zip", ".rar", ".7z"]}
 }
 
