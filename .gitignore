@@ -1,6 +1,12 @@
 # Entorno virtual
 .venv/
 venv/
+ENV/
+env/
+*/.venv/
+*/venv/
+*/ENV/
+*/env/
 
 # Archivos compilados de Python
 __pycache__/
@@ -14,3 +20,11 @@ __pycache__/
 # Archivos del sistema operativo
 .DS_Store
 Thumbs.db
+
+# Carpeta del ejecutable
+output/
+
+# Archivos de Pyinstaler
+build/
+dist/
+*.spec
